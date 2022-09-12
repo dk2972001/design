@@ -1,0 +1,170 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"> SRM ARTS AND SCIENCE COLLEGE</div>
+        <div class="menu">
+            <li><a>LOGOUT</a></li>
+        </div>
+    </nav>
+
+
+    <div class="wrapper">
+        <!--Top menu -->
+        <div class="sidebar">
+            <!--profile image & text-->
+            <div class="profile">
+                <img src="img.jpg">
+                <div class="ring-container">
+                    <div class="ringring"></div>
+                    <div class="circle"></div>
+                </div>
+                <h3>User Name</h3>
+            </div>
+            <!--menu item-->
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <span class="icon"><i class="fas fa-building"></i></span>
+                        <span class="item">Departments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span class="icon"><i class="fas fa-user"></i></span>
+                        <span class="item">Personal Details</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-book "></i></span>
+                        <span class="item">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-clipboard-list"></i></span>
+                        <span class="item">View Queries</span>
+                    </a>
+                </li>
+
+            </ul>
+        
+        </div>
+        <!--top menu bar-->
+        <div class="section">
+            <div class="top_navbar">
+                <div class="hamburger">
+                    <a href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="row g-4">
+                <div class="col">
+                    <label>Full Name<small style=" color:red">*</small></label>
+                    <input type="text" style="width: 20%;" class="form-control" placeholder="initial" aria-label="First name">
+                </div>
+                <div class="col" style="margin-left: -250px;">
+                    <label>     </label>
+                    <input type="text" style="width:80%;" class="form-control" placeholder="Name" aria-label="Last name">
+                </div>
+                <div class="col" style="margin-left: -70px;">
+                    <label>Date of Birth<small style=" color:red">*</small></label>
+                    <input type="date" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <legend class="col-form-label col-sm-2 pt-0">Gender<small style=" color:red">*</small></legend>
+                    <div class="form-check form-check-inline" style="margin-left: 10px;">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline" style="margin-left: 5px;">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Female</label>
+                    </div>
+                    <div class="form-check form-check-inline" style="margin-left: 5px;">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio3">Transgender</label>
+                    </div>
+                </div>
+                <form class="row g-3">
+                    <div class="col-3">
+                        <label for="inputblood" class="form-label">Blood Group</label>
+                        <select id="inputblood" class="form-select">
+                            <option selected> Blood Group</option>
+                            <option>A+ive</option>
+                            <option>A-ive</option>
+                            <option>B+ive</option>
+                            <option>B-ive</option>
+                            <option>O+ive</option>
+                            <option>O-ive</option>
+                            <option>A1B+ive</option>
+                            <option>AB-ive</option>
+                            <option>AB-ive</option>
+                        </select>
+
+                    </div><br>
+
+
+
+                    <div class="col-3 ">
+                        <label class="contact" style="font-style:initial">Contact<small style=" color:red">*</small></label>
+                        <input type="text" style="height : 65%;" class="form-control" placeholder="contact">
+                    </div>
+                    <div class="col-3 ">
+                        <label class="e-mail" style="font-style:initial">e-mail<small style=" color:red">*</small></label>
+                        <input type="text" style="width : 150% ;" class="form-control" placeholder="enter your mail id">
+                    </div>
+
+                </form>
+                <form class="row g-2">
+                    <div class="col-3">
+                        <label class="Aadhar Number" style="font-style:initial">Aadhar Number<small style=" color:red">*</small></label>
+                        <input type="text" style="width : 100% ;" class="form-control" placeholder="enter your Aadhar Number ">
+                    </div>
+                    <div class="col-3">
+                        <label class="Highest qualification" style="font-style:initial">Highest qualification<small style=" color:red">*</small></label>
+                        <input type="text" style="width : 85% ;" class="form-control" placeholder="enter your qualification ">
+                    
+                    </div>
+
+                </form>
+                <form class="row g-1">
+                    <div class="col-3">
+                        <label class="User Name" style="font-style:initial">User Name<small style=" color:red">*</small></label>
+                        <input type="text" style="width : 100% ;" class="form-control" placeholder="enter your User Name ">
+                    </div>
+                    <div class="col-3">
+                        <label class="Password" style="font-style:initial">Password<small style=" color:red">*</small></label>
+                        <input type="text" style="width : 85% ;" class="form-control" placeholder="enter your Password ">
+                    </div>
+            </div>
+
+
+
+
+    </div>
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function () {
+            document.querySelector("body").classList.toggle("active");
+        })
+
+    </script>
+</body>
+</html>
